@@ -1,0 +1,1 @@
+docker run -it -v "$PWD":/app --name handson-unsupervised-learning -p 8889:8889 --rm --gpus 2 handson-unsupervised-learning:latest
